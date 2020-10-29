@@ -1,6 +1,6 @@
 $uris = Import-CSV .\settings.csv
 
-$destination = "C:\Users\kourf\Pictures\Backgrounds"
+$destination = "C:\Users\$env:UserName\Pictures\test"
 
 IF(!(Test-Path $destination)) {New-Item -Path $destination -ItemType Directory -Force | Out-Null}
 
