@@ -1,5 +1,5 @@
 # redditWallpaperScrapper
-this will take Scrape Reddit pages for .jpg
+this will scrape Reddit pages for .jpg images.
 
 ## Dependencies
 `Import-Module BitsTransfer`
